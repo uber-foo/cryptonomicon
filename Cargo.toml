@@ -2,6 +2,12 @@
 authors = ["Sean Bruton <sean@uberfoo.net>"]
 name = "cryptonomicon"
 version = "0.1.0"
+description = "unified crypto library"
+repository = "https://github.com/uber-foo/cryptonomicon"
+license = "MIT OR Apache-2.0"
+keywords = ["crypto", "cryptography", "encryption", "decryption", "elliptic curve", "digital signature"]
+categories = ["authentication", "cryptography"]
+
 [dependencies]
 error-chain = "0.11.0"
 
