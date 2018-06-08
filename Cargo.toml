@@ -11,7 +11,7 @@ version = "0.6.2"
 
 [features]
 asymmetric = []
-default = []
+default = ["elliptic_curve_25519", "x509_v3"]
 elliptic_curve = ["asymmetric"]
 elliptic_curve_25519 = ["elliptic_curve", "ed25519-dalek"]
 pki = ["asymmetric"]
