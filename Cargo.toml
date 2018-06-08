@@ -5,7 +5,7 @@ version = "0.1.0"
 description = "unified crypto library"
 repository = "https://github.com/uber-foo/cryptonomicon"
 license = "MIT OR Apache-2.0"
-keywords = ["crypto", "cryptography", "encryption", "decryption", "elliptic curve", "digital signature"]
+keywords = ["crypto", "cryptography", "encryption", "decryption", "signature", "dsa", "ecc", "ecdsa", "ecies", "x509", "certificate"]
 categories = ["authentication", "cryptography"]
 
 [dependencies]
