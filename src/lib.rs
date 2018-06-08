@@ -10,17 +10,7 @@
 #[macro_use]
 extern crate error_chain;
 
-/// Errors (uses error-chain)
-pub mod errors;
-
-/// Asymmetric crypto stubs for use within specific implementations, intended for internal usage but exposed to enable extension of this crate.
-#[cfg(feature = "asymmetric")]
 pub mod asymmetric;
-
-/// Elliptic Curve Cryptography
-#[cfg(feature = "elliptic_curve")]
 pub mod elliptic_curve;
-
-/// Public Key Infrastructure (certificates, et al.)
-#[cfg(feature = "pki")]
+pub mod errors;
 pub mod pki;

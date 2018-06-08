@@ -1,3 +1,5 @@
+//! Errors (uses [error-chain](https://crates.io/crates/error-chain))
+
 error_chain!{
     foreign_links {
         // AmqpError(::amqp::AMQPError);
