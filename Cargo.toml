@@ -9,17 +9,11 @@ keywords = ["crypto", "encryption", "signature", "pki", "certificate"]
 categories = ["authentication", "cryptography"]
 
 [dependencies]
-error-chain = "0.11.0"
-
-[dependencies.ed25519-dalek]
-optional = true
-version = "0.6.2"
+failure = "0.1.2"
+failure_derive = "0.1.2"
 
 [features]
-asymmetric = []
-default = ["elliptic_curve_25519", "x509_v3"]
-elliptic_curve = ["asymmetric"]
-elliptic_curve_25519 = ["elliptic_curve", "ed25519-dalek"]
-pki = ["asymmetric"]
+default = ["x509_v3"]
+pki = []
 x509 = ["pki"]
 x509_v3 = ["x509"]
